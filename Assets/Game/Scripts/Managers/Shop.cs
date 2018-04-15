@@ -12,11 +12,19 @@ public class Shop : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		//closeBtn.GetComponent<Button>().onClick.AddListener(() => { CloseBtn(); });  
+
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
+
+	void CloseBtn()
+	{
+		//shopPanel.SetActive(false);
+	}
+
 }
